@@ -28,13 +28,13 @@ Listas: <ul>
 </ul>
     
     Attribute	Description
-alt:	Especifica um texto alternativo para uma imagem, quando a imagem não pode ser exibida
-disabled:	Especifica que um elemento de entrada deve ser desativado
-href:	Especifica o URL (endereço da web) de um link
-id:	Especifica um id exclusivo para um elemento
-src:	Especifica o URL (endereço da web) de uma imagem
-style: Especifica um estilo CSS inline para um elemento
-title:	Especifica informações extras sobre um elemento (exibido como uma dica de ferramenta)
+alt:Especifica um texto alternativo para uma imagem, quando a imagem não pode ser exibida
+disabled:Especifica que um elemento de entrada deve ser desativado
+href:Especifica o URL (endereço da web) de um link
+id:Especifica um id exclusivo para um elemento
+src:Especifica o URL (endereço da web) de uma imagem
+style:Especifica um estilo CSS inline para um elemento
+title:Especifica informações extras sobre um elemento (exibido como uma dica de ferramenta)
 Mais descrições de atributos: https://www.w3schools.com/tags/ref_attributes.asp
     
     
