@@ -37,5 +37,4 @@ style:Especifica um estilo CSS inline para um elemento
 title:Especifica informações extras sobre um elemento (exibido como uma dica de ferramenta)
 Mais descrições de atributos: https://www.w3schools.com/tags/ref_attributes.asp
     
-    
-    ```
+```
