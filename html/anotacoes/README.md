@@ -35,5 +35,5 @@ id:	Especifica um id exclusivo para um elemento
 src:	Especifica o URL (endereço da web) de uma imagem
 style: Especifica um estilo CSS inline para um elemento
 title:	Especifica informações extras sobre um elemento (exibido como uma dica de ferramenta)
+```
     <a href="https://www.w3schools.com/tags/ref_attributes.asp">Mais decrições de atributos</a>
- ```
