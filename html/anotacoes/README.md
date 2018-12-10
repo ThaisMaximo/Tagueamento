@@ -24,9 +24,23 @@ Design da fonte: Cor <p style="color:red">I am a paragraph</p>
         Cor de fundo <p style="background-color:powderblue;">Olaaa</p>
                Fonte <p style="font-family:tahoma;">This is a paragraph.</p>
          Alinhamento <p style="text-align:center;">Centered paragraph.</p>
+<b> - Texto em negrito
+<strong> - texto importante
+<i> - texto em itálico
+<em> - texto enfatizado
+<mark> - texto marcado
+<small> - pequeno texto
+<del> - texto excluído
+<ins> - texto inserido
+<sub> - texto subscrito
+<sup> - Texto sobrescrito
 Cabeçalho maior: <h1 style="font-size:60px;">Heading 1</h1>
 Escrita PT: <meta charset="UTF-8"> (Dentro do head)
 Quebra de linha no mesmo paragrafo: <p>This is<br>a paragraph<br>with line breaks.</p> (br é uma tag vazia, não precisa de finalização)
+Citação texto de outro site> <blockquote cite="http://www.worldwildlife.org/who/index.html"> texto aqui </blockquote>
+Citação curta: <q> </q>
+Abreviação: <abbr> Ex: <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+Informações de contato: <address>
     
     Attribute	Description
 alt:Especifica um texto alternativo para uma imagem, quando a imagem não pode ser exibida
