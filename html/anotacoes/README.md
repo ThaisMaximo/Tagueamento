@@ -25,7 +25,7 @@ Design da fonte: Cor <p style="color:red">I am a paragraph</p>
                Fonte <p style="font-family:tahoma;">This is a paragraph.</p>
          Alinhamento <p style="text-align:center;">Centered paragraph.</p>
 Cabeçalho maior: <h1 style="font-size:60px;">Heading 1</h1>
-Escrita: <meta charset="UTF-8"> (Dentro do head)
+Escrita PT: <meta charset="UTF-8"> (Dentro do head)
 Quebra de linha no mesmo paragrafo: <p>This is<br>a paragraph<br>with line breaks.</p> (br é uma tag vazia, não precisa de finalização)
     
     Attribute	Description
