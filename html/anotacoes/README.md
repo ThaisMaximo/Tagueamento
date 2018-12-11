@@ -21,9 +21,10 @@ Imagem com link nela: <a href="colocarolink" target="_blank">
 Botões: <button>Click me</button>
 Design da fonte: Cor <p style="color:red">I am a paragraph</p>
              Tamanho <p style="font-size:50px;">I am big</p>
-        Cor de fundo <p style="background-color:powderblue;">Olaaa</p>
+        Cor de fundo <p style="background-color:powderblue;">Olaaa</p> (Cores padrão: https://www.w3schools.com/colors/colors_names.asp)
                Fonte <p style="font-family:tahoma;">This is a paragraph.</p>
          Alinhamento <p style="text-align:center;">Centered paragraph.</p>
+              Bordas <h1 style="border: 2px solid Tomato;">Hello World</h1>
 <b> - Texto em negrito
 <strong> - texto importante
 <i> - texto em itálico
@@ -41,6 +42,9 @@ Citação texto de outro site> <blockquote cite="http://www.worldwildlife.org/wh
 Citação curta: <q> </q>
 Abreviação: <abbr> Ex: <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
 Informações de contato: <address>
+Título de um trabalho/obra: <cite> Ex: <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+Substituição bidirecional: <bdo> Ex:<bdo dir="rtl">This text will be written from right to left</bdo>
+Comentários: <!-- This is a comment --> (Não aparecem no navegador, útil para encontrar erros)
     
     Attribute	Description
 alt:Especifica um texto alternativo para uma imagem, quando a imagem não pode ser exibida
@@ -55,6 +59,63 @@ Mais descrições de atributos: https://www.w3schools.com/tags/ref_attributes.as
 Head é um conteiner para metadados, ele não aparece na página web, mas serve para colocar atributos.
     Ex: Title, meta, fontes e scripts
     
+CSS Interno
+Para a pagina toda, dentro do head:
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
 
+CSS Externo
+Para o arquivo todo, dentro do head:
+<link rel="stylesheet" href="styles.css">
+Obs: Uma folha de estilos externa pode ser escrita em qualquer editor de texto. O arquivo não deve conter nenhum código HTML e deve ser salvo com uma extensão .css.
     
-```
+Borda CSS: p {
+border: 1px solid powderblue;
+}
+
+Margem CSS p {
+  border: 1px solid powderblue;
+  margin: 50px;
+}
+
+Atributo ID: 
+<html>
+<head>
+<style>
+#p01 {
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p id="p01">I am different.</p>
+
+</body>
+</html>
+
+Classe atributo:
+<html>
+<head>
+<style>
+p.error {
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different.</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different too.</p>
+
+</body>
+</html>
+
