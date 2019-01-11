@@ -16,6 +16,7 @@
     
 Link: <a href="https://www.w3schools.com">This is a link</a>
 Imagem: <img src="img_girl.jpg" width="500" height="600">
+Imagem: <img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
 Imagem com descrição: <img src="img_girl.jpg" alt="Girl with a jacket" width="500" height="600"> ou style="width:500px;height:600px;"
 Imagem com link nela: <a href="colocarolink" target="_blank">
 Botões: <button>Click me</button>
@@ -160,3 +161,6 @@ Foto link, ex:
 <a href="linkweb">
   <img src="linkimage" alt="titulo" style="width:42px;height:42px;border:0">
 </a>
+O altatributo fornece um texto alternativo para uma imagem (caso o usuario não conseguir vizualizar a img por qualquer motivo)
+
+
